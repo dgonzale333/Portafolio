@@ -68,10 +68,12 @@ header>.info-header {
 }
 
 hr {
-    width: 90%;
-    height: 0.5rem;
+    width: 93%;
+    height: 0.3rem;
     border-radius: 5rem;
     background-color: #39a900;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
 }
 
 .section-projects {
@@ -120,5 +122,26 @@ hr {
     text-decoration: none;
     margin-top: 0.5rem;
     color: black;
+    font-weight: bold;
+ }
+
+ .section-references{
+    display: flex;
+    justify-content: center;
+ }
+
+ .cards-references{
+    margin: 1rem;
+    margin-right: 1rem;
+    width: 60%;
+    height: 8rem;
+    background-color :#b4e49c;
+    border-radius: 0.5rem;
+ }
+
+ .cards-references > p{
+    text-align: center;
+    margin: 0.3rem;
+    margin-top: 0.5rem;
     font-weight: bold;
  }
