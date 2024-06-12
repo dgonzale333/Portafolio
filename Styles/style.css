@@ -145,3 +145,48 @@ hr {
     margin-top: 0.5rem;
     font-weight: bold;
  }
+
+ .section-experiences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+ }
+
+.content-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 50%;
+}
+ .content-experience > img {
+    width: 6rem;
+    margin-top: 1rem;
+ }
+
+ .content-experience > progress[value]{
+    width: 130px;
+    height: 20px;
+    margin-top: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+ }
+
+ progress[value]::-webkit-progress-bar{
+    background-color: #b4e49c;
+    border-radius: 3rem;
+ }
+
+ progress[value]::-webkit-progress-value{
+    background-color: #39a900;
+    border-radius: 3rem;
+ }
+
+ .content-experience > p{
+    text-align: center;
+    font-weight: bold;
+ }
