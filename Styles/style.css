@@ -51,32 +51,7 @@ header>.info-header {
     margin-top: 1rem;
 }
 
-.header-contact{
-    margin-top: 17rem;
-}
 
-.header-contact > h2{
-text-align: center;
-margin: 3rem;
-}
-
-.header-contact > hr{
-    width: 90%;
-    height: 0.3rem;
-    border-radius: 5rem;
-    background-color:#b4e49c;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
-
-.icons-social {
-    display: flex;
-    align-items: center;
-    align-self: center;
-    justify-content: space-evenly;
-    margin-top: 1rem;
-    margin: 2rem;
-}
 
 .img-projects {
     display: flex;
@@ -246,6 +221,7 @@ footer>hr {
 
 
 footer>.icons-social {
+    color: white;
     display: flex;
     margin-top: 1rem;
     align-items: center;
@@ -363,7 +339,7 @@ footer>.icons-social {
         border-radius: 5rem;
         background-color: #39a900;
         margin-top: 1rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
 
     .section-projects {
@@ -372,12 +348,21 @@ footer>.icons-social {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-left: 3rem;
+        margin-left: 4.5rem;
     }
 
     .card-projects {
         width: 48%;
         height: 10rem;
+    }
+    
+    .card-projects > img{
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .info-projects{
+        margin-top: 1rem;
     }
 
     .section-references {
@@ -387,6 +372,33 @@ footer>.icons-social {
     .section-experiences {
         display: flex;
         flex-direction: row;
+    }
+
+    .header-contact{
+        margin-top: 17rem;
+    }
+    
+    .header-contact > h2{
+    text-align: center;
+    margin: 3rem;
+    }
+    
+    .header-contact > hr{
+        width: 90%;
+        height: 0.3rem;
+        border-radius: 5rem;
+        background-color:#b4e49c;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .icons-social {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: space-evenly;
+        margin-top: 1rem;
+        margin: 2rem;
     }
 
     footer {
