@@ -234,6 +234,10 @@ footer>.icons-social > a{
     color: white;
 }
 
+footer>.icons-social > a:hover{
+    color:#55ff00;
+}
+
 @media screen and (min-width: 393px) and (max-width: 480px) {
     .header-contact{
         display: none;
