@@ -226,7 +226,12 @@ footer>.icons-social {
     margin-top: 1rem;
     align-items: center;
     align-self: center;
-    justify-content: space-evenly;
+    justify-content: space-evenly;  
+}
+
+footer>.icons-social > a{
+    text-decoration: none;
+    
 }
 
 @media screen and (min-width: 393px) and (max-width: 480px) {
